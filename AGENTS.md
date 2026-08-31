@@ -6,6 +6,11 @@ Manual prose ABOVE the blocks. A human wrote this line and it must never move.
 # Structured Logging Only
 
 Use the structured logger in `src/logger.js`; never call `console.log` directly.
+
+
+- Redact secrets before logging.  
+- Prefer one event per line.  
+
 <!-- END:logging-rules -->
 
 Manual note BETWEEN the blocks. This paragraph is hand-maintained.
