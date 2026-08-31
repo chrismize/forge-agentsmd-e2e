@@ -18,10 +18,8 @@ It even has a deliberate double blank line above it that must be preserved.
 
 Run `npm test` before committing.
 
-
-- Keep unit tests hermetic.  
-- Name tests after behavior.  
-
+- Keep unit tests hermetic.
+- Name tests after behavior.
 <!-- END:testing-rules -->
 
 Manual prose BELOW the blocks, with trailing spaces that must survive:   
