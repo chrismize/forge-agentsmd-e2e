@@ -21,3 +21,9 @@ Run `npm test` before committing.
 
 Manual prose BELOW the blocks, with trailing spaces that must survive:   
 - keep me exactly
+
+<!-- BEGIN:learned-repository-structure -->
+# Repository uses AGENTS.md for automation rules
+
+This repository follows a pattern where `AGENTS.md` contains agent-specific rules and guidelines for automated tooling, while `README.md` serves as the main repository documentation. When modifying documentation, respect this separation of concerns.
+<!-- END:learned-repository-structure -->
