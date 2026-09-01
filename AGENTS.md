@@ -24,3 +24,14 @@ Run `npm test` before committing.
 
 Manual prose BELOW the blocks, with trailing spaces that must survive:   
 - keep me exactly
+
+<!-- BEGIN:learned-markdown-formatting -->
+# Markdown formatting with trailing spaces
+
+Bullet points in AGENTS.md require two trailing spaces per line. This is a specific formatting convention for this repository's documentation.
+<!-- END:learned-markdown-formatting -->
+<!-- BEGIN:learned-marker-blocks -->
+# Marker block structure in AGENTS.md
+
+AGENTS.md uses HTML comment markers like `<!-- BEGIN:testing-rules -->` and `<!-- END:testing-rules -->` to delimit sections. A blank line must precede the END marker. Multiple marker blocks exist (testing-rules, logging-rules) and must be edited independently.
+<!-- END:learned-marker-blocks -->
