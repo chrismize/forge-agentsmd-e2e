@@ -21,3 +21,14 @@ Run `npm test` before committing.
 
 Manual prose BELOW the blocks, with trailing spaces that must survive:   
 - keep me exactly
+
+<!-- BEGIN:learned-repository-structure -->
+# Repository contains AGENTS.md documentation
+
+This repository includes an `AGENTS.md` file that appears to be significant documentation. When creating deployment instructions, reference this file as it contains important information for users.
+<!-- END:learned-repository-structure -->
+<!-- BEGIN:learned-git-workflow -->
+# Standard Git workflow with feature branches
+
+The repository uses a standard Git workflow: create feature branches from `master`, make changes, commit, and open pull requests. Branch naming follows the pattern `forge/code-{uuid}`.
+<!-- END:learned-git-workflow -->
