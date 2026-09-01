@@ -24,3 +24,14 @@ Run `npm test` before committing.
 
 Manual prose BELOW the blocks, with trailing spaces that must survive:   
 - keep me exactly
+
+<!-- BEGIN:learned-marker-block-formatting -->
+# Marker block formatting conventions in AGENTS.md
+
+Marker blocks in AGENTS.md use HTML comments like `<!-- BEGIN:block-name -->` and `<!-- END:block-name -->`. Content lines within these blocks require two trailing spaces per line. A blank line must precede the END marker.
+<!-- END:learned-marker-block-formatting -->
+<!-- BEGIN:learned-selective-file-modification -->
+# Multiple marker blocks require careful isolation
+
+AGENTS.md contains multiple marker blocks (testing-rules, logging-rules). When modifying one block, verify through git diff that other blocks remain untouched to avoid unintended changes.
+<!-- END:learned-selective-file-modification -->
