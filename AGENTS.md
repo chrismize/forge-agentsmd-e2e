@@ -21,3 +21,14 @@ Run `npm test` before committing.
 
 Manual prose BELOW the blocks, with trailing spaces that must survive:   
 - keep me exactly
+
+<!-- BEGIN:learned-protected-files -->
+# AGENTS.md must not be modified
+
+The repository has a file called AGENTS.md that must be explicitly avoided during changes. Tasks may specifically call out not to touch this file along with other restrictions.
+<!-- END:learned-protected-files -->
+<!-- BEGIN:learned-branch-workflow -->
+# Branch naming and PR workflow
+
+Changes are made on branches with the pattern `forge/code-<uuid>` created from master. Work is submitted via pull request back to the master branch.
+<!-- END:learned-branch-workflow -->
