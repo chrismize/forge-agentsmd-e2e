@@ -21,3 +21,14 @@ Run `npm test` before committing.
 
 Manual prose BELOW the blocks, with trailing spaces that must survive:   
 - keep me exactly
+
+<!-- BEGIN:learned-scripts-directory -->
+# Scripts directory structure
+
+The repository has a `scripts/` directory for utility scripts. New scripts should be placed here and documented in the README.md under a Scripts section.
+<!-- END:learned-scripts-directory -->
+<!-- BEGIN:learned-testing-approach -->
+# Testing new scripts in place
+
+New scripts can be tested by running them directly with Node.js (e.g., `node scripts/backup.js`). The agent tested the backup script both with and without arguments, and verified output files were created, then cleaned up test artifacts.
+<!-- END:learned-testing-approach -->
