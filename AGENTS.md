@@ -21,3 +21,14 @@ Run `npm test` before committing.
 
 Manual prose BELOW the blocks, with trailing spaces that must survive:   
 - keep me exactly
+
+<!-- BEGIN:learned-repository-structure -->
+# Repository has a README.md at root
+
+The repository contains a README.md file at the root level that can be modified directly. Changes to documentation follow standard Markdown formatting.
+<!-- END:learned-repository-structure -->
+<!-- BEGIN:learned-git-workflow -->
+# Standard branch and PR workflow
+
+Work is done on feature branches named `forge/code-{uuid}` branched from `master`. Changes are committed and submitted via pull requests using the sandbox PR mechanism.
+<!-- END:learned-git-workflow -->
